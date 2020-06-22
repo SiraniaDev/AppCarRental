@@ -1,0 +1,231 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShareAttirbute"
+provides-nominal:
+- "17SwiftShareBubbles0B9AttirbuteV"
+provides-member:
+- ["17SwiftShareBubbles0B9AttirbuteV", ""]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createFacebook"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createTwitter"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createLine"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createGoogle"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createInstagram"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createLinkedin"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createWeibo"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createWhatsapp"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createPinterest"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createYoutube"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createSafari"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Bubble"
+- !private "Bundle"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "ShareAttirbute"
+- "String"
+- !private "StringLiteralType"
+- !private "SwiftShareBubbles"
+- "UIColor"
+- "UIImage"
+depends-member:
+- !private ["17SwiftShareBubbles6BubbleO", "deinit"]
+- !private ["17SwiftShareBubbles6BubbleO", "facebook"]
+- !private ["17SwiftShareBubbles6BubbleO", "google"]
+- !private ["17SwiftShareBubbles6BubbleO", "instagram"]
+- !private ["17SwiftShareBubbles6BubbleO", "line"]
+- !private ["17SwiftShareBubbles6BubbleO", "linkedin"]
+- !private ["17SwiftShareBubbles6BubbleO", "pintereset"]
+- !private ["17SwiftShareBubbles6BubbleO", "rawValue"]
+- !private ["17SwiftShareBubbles6BubbleO", "safari"]
+- !private ["17SwiftShareBubbles6BubbleO", "twitter"]
+- !private ["17SwiftShareBubbles6BubbleO", "weibo"]
+- !private ["17SwiftShareBubbles6BubbleO", "whatsapp"]
+- !private ["17SwiftShareBubbles6BubbleO", "youtube"]
+- !private ["So8NSBundleC", "bundlePath"]
+- !private ["So8NSBundleC", "init"]
+- !private ["s7CVarArgP", "bundlePath"]
+- !private ["s7CVarArgP", "colorFromRGB"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "bundlePath"]
+- !private ["s28CustomDebugStringConvertibleP", "colorFromRGB"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "bundlePath"]
+- !private ["s23CustomStringConvertibleP", "colorFromRGB"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SQ", "bundlePath"]
+- !private ["SQ", "colorFromRGB"]
+- !private ["SQ", "facebook"]
+- !private ["SQ", "google"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instagram"]
+- !private ["SQ", "line"]
+- !private ["SQ", "linkedin"]
+- !private ["SQ", "pintereset"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "safari"]
+- !private ["SQ", "twitter"]
+- !private ["SQ", "weibo"]
+- !private ["SQ", "whatsapp"]
+- !private ["SQ", "youtube"]
+- !private ["SH", "bundlePath"]
+- !private ["SH", "colorFromRGB"]
+- !private ["SH", "facebook"]
+- !private ["SH", "google"]
+- !private ["SH", "init"]
+- !private ["SH", "instagram"]
+- !private ["SH", "line"]
+- !private ["SH", "linkedin"]
+- !private ["SH", "pintereset"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "safari"]
+- !private ["SH", "twitter"]
+- !private ["SH", "weibo"]
+- !private ["SH", "whatsapp"]
+- !private ["SH", "youtube"]
+- !private ["So8NSCodingP", "colorFromRGB"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "colorFromRGB"]
+- !private ["So21NSItemProviderReadingP", "colorFromRGB"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "colorFromRGB"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "bundlePath"]
+- !private ["So8NSObjectC", "colorFromRGB"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "bundlePath"]
+- !private ["So8NSObjectP", "colorFromRGB"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So14NSSecureCodingP", "colorFromRGB"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["SY", "facebook"]
+- !private ["SY", "google"]
+- !private ["SY", "instagram"]
+- !private ["SY", "line"]
+- !private ["SY", "linkedin"]
+- !private ["SY", "pintereset"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "safari"]
+- !private ["SY", "twitter"]
+- !private ["SY", "weibo"]
+- !private ["SY", "whatsapp"]
+- !private ["SY", "youtube"]
+- !private ["17SwiftShareBubbles0B9AttirbuteV", "Bubble"]
+- !private ["17SwiftShareBubbles0B9AttirbuteV", "Bundle"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "Int"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "ShareAttirbute"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "String"]
+- !private ["17SwiftShareBubbles0B9AttirbuteV", "SwiftShareBubbles"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "UIColor"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "UIImage"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "backgroundColor"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "bubbleId"]
+- !private ["17SwiftShareBubbles0B9AttirbuteV", "createButton"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createFacebook"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createGoogle"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createInstagram"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createLine"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createLinkedin"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createPinterest"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createSafari"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createTwitter"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createWeibo"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createWhatsapp"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "createYoutube"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "icon"]
+- ["17SwiftShareBubbles0B9AttirbuteV", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIColorC", "colorFromRGB"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "colorFromRGB"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bundlePath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colorFromRGB"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bundlePath"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "colorFromRGB"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- !private "17SwiftShareBubbles6BubbleO"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "SY"
+- "17SwiftShareBubbles0B9AttirbuteV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIColorC"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Pods/Headers/Public/SwiftShareBubbles/SwiftShareBubbles-umbrella.h"
+- "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Pods/Headers/Public/SwiftShareBubbles/SwiftShareBubbles.h"
+- "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Pods/Headers/Public/SwiftShareBubbles/SwiftShareBubbles.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "62c69e80a8e30b52d9f74cef15ab0df0"

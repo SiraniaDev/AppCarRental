@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "eeab4f7dfdadf29f0c6eae35b0ec7bff"
+build_time: [1592800530, 295602000]
+inputs:
+  "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Pods/SwiftShareBubbles/SwiftShareBubbles/Bubble.swift": [1592800075, 417863929]
+  "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Pods/SwiftShareBubbles/SwiftShareBubbles/ShareAttirbute.swift": [1592800075, 423205773]
+  "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Pods/SwiftShareBubbles/SwiftShareBubbles/SwiftShareBubbles.swift": [1592800075, 422296038]
+  "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Pods/SwiftShareBubbles/SwiftShareBubbles/SwiftShareBubblesDelegate.swift": [1592800075, 422786884]
+  "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Pods/SwiftShareBubbles/SwiftShareBubbles/UIColor+SwiftShareBubble.swift": [1592800075, 422073399]

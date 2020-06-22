@@ -1,0 +1,16 @@
+PODS:
+  - SwiftShareBubbles (1.2.0)
+
+DEPENDENCIES:
+  - SwiftShareBubbles
+
+SPEC REPOS:
+  trunk:
+    - SwiftShareBubbles
+
+SPEC CHECKSUMS:
+  SwiftShareBubbles: 0edb1b7829c9e2da3ddde975335b450f3c89560a
+
+PODFILE CHECKSUM: 737f40eeca2c3f27b87c2311acfd95ecbdf014cc
+
+COCOAPODS: 1.9.3

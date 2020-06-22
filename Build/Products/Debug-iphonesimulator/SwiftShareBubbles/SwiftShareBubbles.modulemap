@@ -1,0 +1,12 @@
+module SwiftShareBubbles {
+  umbrella header "SwiftShareBubbles-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module SwiftShareBubbles.Swift {
+  header "/Users/nadiamettioui/Desktop/PortoFolio 2020/AppCarRental/Build/Products/Debug-iphonesimulator/SwiftShareBubbles/Swift Compatibility Header/SwiftShareBubbles-Swift.h"
+  requires objc
+}

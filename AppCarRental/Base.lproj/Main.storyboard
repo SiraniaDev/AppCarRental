@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,113 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppCarRental" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoAbCars" translatesAutoresizingMaskIntoConstraints="NO" id="2aA-d1-iQK">
+                                <rect key="frame" x="87" y="322" width="240" height="252"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="H6F-CA-Zij">
+                                <rect key="frame" x="87" y="592" width="240" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9K-ua-OyW">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="66.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="t9K-ua-OyW" secondAttribute="height" multiplier="12:7" id="Jyq-ir-Jtd"/>
+                                        </constraints>
+                                        <state key="normal" title="Facebook"/>
+                                        <connections>
+                                            <action selector="facebookTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXD-oo-rT6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yN6-i3-2pI">
+                                        <rect key="frame" x="0.0" y="66.5" width="240" height="67"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="yN6-i3-2pI" secondAttribute="height" multiplier="8:1" id="Kq3-NG-Dnj"/>
+                                        </constraints>
+                                        <state key="normal" title="WebSite"/>
+                                        <connections>
+                                            <action selector="webSiteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ev3-39-zMR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tf6-6H-GDz">
+                                        <rect key="frame" x="0.0" y="133.5" width="240" height="66.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="tf6-6H-GDz" secondAttribute="height" multiplier="8:1" id="uQY-i8-OG3"/>
+                                        </constraints>
+                                        <state key="normal" title="Instagram"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="tf6-6H-GDz" firstAttribute="height" secondItem="t9K-ua-OyW" secondAttribute="height" id="6uy-y3-RkM"/>
+                                    <constraint firstItem="yN6-i3-2pI" firstAttribute="height" secondItem="t9K-ua-OyW" secondAttribute="height" id="SYh-19-h7n"/>
+                                    <constraint firstItem="yN6-i3-2pI" firstAttribute="width" secondItem="t9K-ua-OyW" secondAttribute="width" id="UxF-ib-iOr"/>
+                                    <constraint firstItem="tf6-6H-GDz" firstAttribute="width" secondItem="t9K-ua-OyW" secondAttribute="width" id="l3Y-Xi-X22"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eCE-MQ-cjF">
+                                <rect key="frame" x="125" y="99" width="164" height="106"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tanger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="myM-An-8R6">
+                                        <rect key="frame" x="55.5" y="0.0" width="53" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Av Hassan 1 N°73" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOo-y0-igG">
+                                        <rect key="frame" x="14.5" y="28.5" width="135.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(+212) 6 87 92 78 96" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJr-Pp-dn8">
+                                        <rect key="frame" x="0.5" y="57" width="163.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(+212) 6 99 94 78 29" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUT-L3-aci">
+                                        <rect key="frame" x="0.0" y="85.5" width="164" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eCE-MQ-cjF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="1aW-Ns-OOC"/>
+                            <constraint firstItem="H6F-CA-Zij" firstAttribute="width" secondItem="2aA-d1-iQK" secondAttribute="width" id="BN4-kj-pD6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eCE-MQ-cjF" secondAttribute="trailing" constant="125" id="Bvs-vq-OIs"/>
+                            <constraint firstItem="H6F-CA-Zij" firstAttribute="trailing" secondItem="2aA-d1-iQK" secondAttribute="trailing" id="Ptl-4R-RH2"/>
+                            <constraint firstItem="2aA-d1-iQK" firstAttribute="top" secondItem="eCE-MQ-cjF" secondAttribute="bottom" constant="117" id="baz-F2-5ne"/>
+                            <constraint firstItem="H6F-CA-Zij" firstAttribute="height" secondItem="2aA-d1-iQK" secondAttribute="height" multiplier="0.793651" id="e0K-4c-M5d"/>
+                            <constraint firstItem="H6F-CA-Zij" firstAttribute="leading" secondItem="2aA-d1-iQK" secondAttribute="leading" id="eHQ-wL-mUF"/>
+                            <constraint firstItem="2aA-d1-iQK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="278" id="eHt-a4-fb5"/>
+                            <constraint firstItem="eCE-MQ-cjF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="hjv-3K-Y7s"/>
+                            <constraint firstItem="2aA-d1-iQK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ip3-PT-xqr"/>
+                            <constraint firstItem="H6F-CA-Zij" firstAttribute="top" secondItem="2aA-d1-iQK" secondAttribute="bottom" constant="18" id="ipx-5R-D9l"/>
+                            <constraint firstItem="2aA-d1-iQK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="kOx-jp-Ko2"/>
+                            <constraint firstItem="H6F-CA-Zij" firstAttribute="centerX" secondItem="2aA-d1-iQK" secondAttribute="centerX" id="nR3-ep-KKi"/>
+                            <constraint firstItem="2aA-d1-iQK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oqB-jE-b7R"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="facebookButton" destination="t9K-ua-OyW" id="YJh-Js-PFx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logoAbCars" width="300" height="138"/>
+    </resources>
 </document>
